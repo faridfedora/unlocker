@@ -95,8 +95,8 @@ def main():
 	dest = os.path.dirname(os.path.abspath(__file__))
 
 	# Re-create the tools folder
-	shutil.rmtree(dest + '/tools', True)
-	os.mkdir(dest + '/tools')
+	#shutil.rmtree(dest + '/tools', True)
+	#os.mkdir(dest + '/tools')
 
 	parser = CDSParser()
 
@@ -140,10 +140,11 @@ def main():
 		print('Tools aren\'t here... Be patient while I download and' +
 			  ' give a look into the core.vmware.fusion.tar file')
 		urlcoretar = url + lastVersion + '/core/com.vmware.fusion.zip.tar'
-			  
+		
 		# Get the main core file
 		try:
-			urlretrieve(urlcoretar, convertpath(dest + '/tools/com.vmware.fusion.zip.tar'), reporthook)
+			#urlretrieve(urlcoretar, convertpath(dest + '/tools/com.vmware.fusion.zip.tar'), reporthook)
+			print(urlcoretar)
 		except:
 			print('Couldn\'t find tools')
 			return
