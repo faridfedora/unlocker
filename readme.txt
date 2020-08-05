@@ -1,3 +1,33 @@
+mac os unlocker for vmware 
+tested on ubuntu (20.04) and vmware player 15.5.6
+no need to downlaod huge files. needed files are embeded.
+after extaction:
+1. cd to unlocker-master dir
+2. sudo sh lnx-install.sh
+done
+
+
+
+این نسخه از آنلاکر طوری ویرایش شده است که نیازی به دانلود فایل حجیم نباشد 
+کافیست فایل دانلود شده را از حالت فشرده خارج کنید و دستورات بالا را اجرا کنید
+توجه شود که قبل اجرا از نصب و اجرای بدون مشکل 
+vmware
+اطمینان حاصل شود
+
+
+
+
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==============================================================
+
+ORIGINAL NOTES:
+
 macOS Unlocker V3.0 for VMware Workstation
 ==========================================
 
